@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Amerihealth NC Locator</title>
+        <style>
+            #map {
+                height: 75%;
+            }
+            
+            html,
+            body {
+                height: 75%;
+                margin: 2rem;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="map"></div>
+    
+        <script src="app.js"></script>
+        <script src="geo-array.js"></script>
+        <!--init map-->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap&solution_channel=GMP_codelabs_simplestorelocator_v1_a">
+        </script>
+    </body>
+
+</html>
